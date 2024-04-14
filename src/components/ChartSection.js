@@ -136,7 +136,7 @@ export class ChartSection extends Component {
           });
         } catch (error) {
           console.error('Error fetching chart data:', error);
-          // Handle the error appropriately, e.g., display an error message to the user
+          alert('Too many API calls, please try again later or Ugrade to Premium');
         }
       }
       
